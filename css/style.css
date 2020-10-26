@@ -118,6 +118,8 @@ img {
 }
 .header__top-tel-item {
   margin-left: 9px;
+  display: flex;
+  align-items: center;
 }
 .phone-link {
   text-decoration: none;
@@ -125,8 +127,6 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
 }
 .phone-link:hover {
   color: #ffbd54;
@@ -134,7 +134,7 @@ img {
 .phone-link:active {
   opacity: 0.6;
 }
-.header__top-tel-item:not(:first-child) .phone-link::before {
+.header__top-tel-item:not(:first-child)::before {
   content: "";
   width: 5px;
   height: 5px;
