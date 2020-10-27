@@ -433,7 +433,7 @@ img {
 .btn-services {
   background-color: #78c0de;
 }
-.btn-services:hover {
+.services-services__item .btn-services:hover {
   background-color: #000000;
 }
 .services-services__item:nth-child(even) .btn-services {
